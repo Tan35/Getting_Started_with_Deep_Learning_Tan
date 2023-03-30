@@ -1,0 +1,243 @@
+Hyperspectral data shape:  (145, 145, 200)
+Label shape:  (145, 145)
+
+... ... PCA tranformation ... ...
+Hyperspectral data shape:  (145, 145, 200)
+Label shape:  (145, 145)
+
+... ... PCA tranformation ... ...
+Data shape after PCA:  (145, 145, 30)
+
+... ... create data cubes ... ...
+Data shape after PCA:  (145, 145, 30)
+
+... ... create data cubes ... ...
+Data cube X shape:  (10249, 25, 25, 30)
+Data cube y shape:  (10249,)
+
+... ... create train & test data ... ...
+Data cube X shape:  (10249, 25, 25, 30)
+Data cube y shape:  (10249,)
+
+... ... create train & test data ... ...
+Xtrain shape:  (1024, 25, 25, 30)
+Xtest  shape:  (9225, 25, 25, 30)
+before transpose: Xtrain shape:  (1024, 25, 25, 30, 1)
+before transpose: Xtest  shape:  (9225, 25, 25, 30, 1)
+after transpose: Xtrain shape:  (1024, 1, 30, 25, 25)
+after transpose: Xtest  shape:  (9225, 1, 30, 25, 25)
+Cuda is available ✔
+Xtrain shape:  (1024, 25, 25, 30)
+Xtest  shape:  (9225, 25, 25, 30)
+before transpose: Xtrain shape:  (1024, 25, 25, 30, 1)
+before transpose: Xtest  shape:  (9225, 25, 25, 30, 1)
+after transpose: Xtrain shape:  (1024, 1, 30, 25, 25)
+after transpose: Xtest  shape:  (9225, 1, 30, 25, 25)
+Cuda is available ✔
+[Epoch: 1]   [loss avg: 11.1669]   [current loss: 2.4245]
+[Epoch: 1]   [loss avg: 11.3097]   [current loss: 2.4092]
+[Epoch: 2]   [loss avg: 9.6005]   [current loss: 1.8303]
+[Epoch: 2]   [loss avg: 9.6844]   [current loss: 1.8341]
+[Epoch: 3]   [loss avg: 8.2624]   [current loss: 1.2705]
+[Epoch: 3]   [loss avg: 8.5234]   [current loss: 1.4450]
+[Epoch: 4]   [loss avg: 7.2663]   [current loss: 0.9410][Epoch: 4]   [loss avg: 7.6391]   [current loss: 1.1943]
+
+[Epoch: 5]   [loss avg: 6.4649]   [current loss: 0.8035]
+[Epoch: 5]   [loss avg: 6.9081]   [current loss: 0.9020]
+[Epoch: 6]   [loss avg: 5.8355]   [current loss: 0.6325]
+[Epoch: 6]   [loss avg: 6.3029]   [current loss: 0.7001]
+[Epoch: 7]   [loss avg: 5.3020]   [current loss: 0.5222]
+[Epoch: 7]   [loss avg: 5.7313]   [current loss: 0.4798]
+[Epoch: 8]   [loss avg: 4.8336]   [current loss: 0.4248]
+[Epoch: 8]   [loss avg: 5.2495]   [current loss: 0.2943]
+[Epoch: 9]   [loss avg: 4.4215]   [current loss: 0.3377]
+[Epoch: 9]   [loss avg: 4.8026]   [current loss: 0.2351]
+[Epoch: 10]   [loss avg: 4.0585]   [current loss: 0.2584]
+[Epoch: 10]   [loss avg: 4.4285]   [current loss: 0.1941]
+[Epoch: 11]   [loss avg: 3.7529]   [current loss: 0.2513]
+[Epoch: 11]   [loss avg: 4.1004]   [current loss: 0.1309]
+[Epoch: 12]   [loss avg: 3.4842]   [current loss: 0.1700]
+[Epoch: 12]   [loss avg: 3.8063]   [current loss: 0.1452]
+[Epoch: 13]   [loss avg: 3.2512]   [current loss: 0.1289]
+[Epoch: 13]   [loss avg: 3.5579]   [current loss: 0.1368]
+[Epoch: 14]   [loss avg: 3.0347]   [current loss: 0.0664][Epoch: 14]   [loss avg: 3.3329]   [current loss: 0.0903]
+
+[Epoch: 15]   [loss avg: 2.8497]   [current loss: 0.0705]
+[Epoch: 15]   [loss avg: 3.1349]   [current loss: 0.0658]
+[Epoch: 16]   [loss avg: 2.6869]   [current loss: 0.0640]
+[Epoch: 16]   [loss avg: 2.9571]   [current loss: 0.0475]
+[Epoch: 17]   [loss avg: 2.5403]   [current loss: 0.0875]
+[Epoch: 17]   [loss avg: 2.8038]   [current loss: 0.0838]
+[Epoch: 18]   [loss avg: 2.4103]   [current loss: 0.0412]
+[Epoch: 18]   [loss avg: 2.6618]   [current loss: 0.0831]
+[Epoch: 19]   [loss avg: 2.2910]   [current loss: 0.0391][Epoch: 19]   [loss avg: 2.5355]   [current loss: 0.0285]
+
+[Epoch: 20]   [loss avg: 2.1883]   [current loss: 0.1149]
+[Epoch: 20]   [loss avg: 2.4175]   [current loss: 0.0329]
+[Epoch: 21]   [loss avg: 2.0911]   [current loss: 0.0582]
+[Epoch: 21]   [loss avg: 2.3072]   [current loss: 0.0104]
+[Epoch: 22]   [loss avg: 2.0016]   [current loss: 0.0237]
+[Epoch: 22]   [loss avg: 2.2138]   [current loss: 0.0545]
+[Epoch: 23]   [loss avg: 1.9206]   [current loss: 0.0415]
+[Epoch: 23]   [loss avg: 2.1245]   [current loss: 0.0179]
+[Epoch: 24]   [loss avg: 1.8436]   [current loss: 0.0350]
+[Epoch: 24]   [loss avg: 2.0439]   [current loss: 0.0472]
+[Epoch: 25]   [loss avg: 1.7730]   [current loss: 0.0077][Epoch: 25]   [loss avg: 1.9661]   [current loss: 0.0246]
+
+[Epoch: 26]   [loss avg: 1.7087]   [current loss: 0.0264][Epoch: 26]   [loss avg: 1.8933]   [current loss: 0.0214]
+
+[Epoch: 27]   [loss avg: 1.6477]   [current loss: 0.0117]
+[Epoch: 27]   [loss avg: 1.8258]   [current loss: 0.0144]
+[Epoch: 28]   [loss avg: 1.5913]   [current loss: 0.0145]
+[Epoch: 28]   [loss avg: 1.7632]   [current loss: 0.0245]
+[Epoch: 29]   [loss avg: 1.5395]   [current loss: 0.0140]
+[Epoch: 29]   [loss avg: 1.7068]   [current loss: 0.0216]
+[Epoch: 30]   [loss avg: 1.4938]   [current loss: 0.0582]
+[Epoch: 30]   [loss avg: 1.6532]   [current loss: 0.0259]
+[Epoch: 31]   [loss avg: 1.4467]   [current loss: 0.0113]
+[Epoch: 31]   [loss avg: 1.6018]   [current loss: 0.0194]
+[Epoch: 32]   [loss avg: 1.4027]   [current loss: 0.0020]
+[Epoch: 32]   [loss avg: 1.5565]   [current loss: 0.0462]
+[Epoch: 33]   [loss avg: 1.3628]   [current loss: 0.0076]
+[Epoch: 33]   [loss avg: 1.5123]   [current loss: 0.0134]
+[Epoch: 34]   [loss avg: 1.3242]   [current loss: 0.0139]
+[Epoch: 34]   [loss avg: 1.4691]   [current loss: 0.0049]
+[Epoch: 35]   [loss avg: 1.2896]   [current loss: 0.0497]
+[Epoch: 35]   [loss avg: 1.4307]   [current loss: 0.0509]
+[Epoch: 36]   [loss avg: 1.2577]   [current loss: 0.0315]
+[Epoch: 36]   [loss avg: 1.3933]   [current loss: 0.0110]
+[Epoch: 37]   [loss avg: 1.2253]   [current loss: 0.0098][Epoch: 37]   [loss avg: 1.3578]   [current loss: 0.0062]
+
+[Epoch: 38]   [loss avg: 1.1958]   [current loss: 0.0449]
+[Epoch: 38]   [loss avg: 1.3243]   [current loss: 0.0117]
+[Epoch: 39]   [loss avg: 1.1682]   [current loss: 0.0286]
+[Epoch: 39]   [loss avg: 1.2932]   [current loss: 0.0540]
+[Epoch: 40]   [loss avg: 1.2637]   [current loss: 0.0682]
+[Epoch: 40]   [loss avg: 1.1400]   [current loss: 0.0135]
+[Epoch: 41]   [loss avg: 1.1132]   [current loss: 0.0153][Epoch: 41]   [loss avg: 1.2335]   [current loss: 0.0052]
+
+[Epoch: 42]   [loss avg: 1.0883]   [current loss: 0.0158]
+[Epoch: 42]   [loss avg: 1.2064]   [current loss: 0.0055]
+[Epoch: 43]   [loss avg: 1.0645]   [current loss: 0.0510][Epoch: 43]   [loss avg: 1.1812]   [current loss: 0.0447]
+
+[Epoch: 44]   [loss avg: 1.0414]   [current loss: 0.0109]
+[Epoch: 44]   [loss avg: 1.1549]   [current loss: 0.0030]
+[Epoch: 45]   [loss avg: 1.0191]   [current loss: 0.0009]
+[Epoch: 45]   [loss avg: 1.1300]   [current loss: 0.0117]
+[Epoch: 46]   [loss avg: 0.9977]   [current loss: 0.0009]
+[Epoch: 46]   [loss avg: 1.1067]   [current loss: 0.0134]
+[Epoch: 47]   [loss avg: 0.9781]   [current loss: 0.0059]
+[Epoch: 47]   [loss avg: 1.0839]   [current loss: 0.0055]
+[Epoch: 48]   [loss avg: 0.9584]   [current loss: 0.0051]
+[Epoch: 48]   [loss avg: 1.0626]   [current loss: 0.0183]
+[Epoch: 49]   [loss avg: 0.9390]   [current loss: 0.0028]
+[Epoch: 49]   [loss avg: 1.0426]   [current loss: 0.0333]
+[Epoch: 50]   [loss avg: 0.9214]   [current loss: 0.0097]
+[Epoch: 50]   [loss avg: 1.0221]   [current loss: 0.0019]
+[Epoch: 51]   [loss avg: 0.9038]   [current loss: 0.0017]
+[Epoch: 51]   [loss avg: 1.0024]   [current loss: 0.0058]
+[Epoch: 52]   [loss avg: 0.8868]   [current loss: 0.0062]
+[Epoch: 52]   [loss avg: 0.9838]   [current loss: 0.0042]
+[Epoch: 53]   [loss avg: 0.8713]   [current loss: 0.0017][Epoch: 53]   [loss avg: 0.9660]   [current loss: 0.0019]
+
+[Epoch: 54]   [loss avg: 0.8556]   [current loss: 0.0068][Epoch: 54]   [loss avg: 0.9491]   [current loss: 0.0288]
+
+[Epoch: 55]   [loss avg: 0.8406]   [current loss: 0.0069][Epoch: 55]   [loss avg: 0.9327]   [current loss: 0.0114]
+
+[Epoch: 56]   [loss avg: 0.8259]   [current loss: 0.0006]
+[Epoch: 56]   [loss avg: 0.9170]   [current loss: 0.0018]
+[Epoch: 57]   [loss avg: 0.8116]   [current loss: 0.0050]
+[Epoch: 57]   [loss avg: 0.9020]   [current loss: 0.0392]
+[Epoch: 58]   [loss avg: 0.7978]   [current loss: 0.0016]
+[Epoch: 58]   [loss avg: 0.8869]   [current loss: 0.0016]
+[Epoch: 59]   [loss avg: 0.7848]   [current loss: 0.0084]
+[Epoch: 59]   [loss avg: 0.8728]   [current loss: 0.0158]
+[Epoch: 60]   [loss avg: 0.7724]   [current loss: 0.0055]
+[Epoch: 60]   [loss avg: 0.8586]   [current loss: 0.0008]
+[Epoch: 61]   [loss avg: 0.7609]   [current loss: 0.0074]
+[Epoch: 61]   [loss avg: 0.8450]   [current loss: 0.0038]
+[Epoch: 62]   [loss avg: 0.7487]   [current loss: 0.0044]
+[Epoch: 62]   [loss avg: 0.8319]   [current loss: 0.0008]
+[Epoch: 63]   [loss avg: 0.7370]   [current loss: 0.0018]
+[Epoch: 63]   [loss avg: 0.8190]   [current loss: 0.0055]
+[Epoch: 64]   [loss avg: 0.7261]   [current loss: 0.0089]
+[Epoch: 64]   [loss avg: 0.8066]   [current loss: 0.0018]
+[Epoch: 65]   [loss avg: 0.7151]   [current loss: 0.0005]
+[Epoch: 65]   [loss avg: 0.7946]   [current loss: 0.0146]
+[Epoch: 66]   [loss avg: 0.7043]   [current loss: 0.0029]
+[Epoch: 66]   [loss avg: 0.7831]   [current loss: 0.0099]
+[Epoch: 67]   [loss avg: 0.6943]   [current loss: 0.0138][Epoch: 67]   [loss avg: 0.7717]   [current loss: 0.0009]
+
+[Epoch: 68]   [loss avg: 0.6844]   [current loss: 0.0013]
+[Epoch: 68]   [loss avg: 0.7605]   [current loss: 0.0068]
+[Epoch: 69]   [loss avg: 0.6747]   [current loss: 0.0078]
+[Epoch: 69]   [loss avg: 0.7500]   [current loss: 0.0046]
+[Epoch: 70]   [loss avg: 0.6655]   [current loss: 0.0042]
+[Epoch: 70]   [loss avg: 0.7395]   [current loss: 0.0124]
+[Epoch: 71]   [loss avg: 0.6567]   [current loss: 0.0015]
+[Epoch: 71]   [loss avg: 0.7295]   [current loss: 0.0006]
+[Epoch: 72]   [loss avg: 0.6478]   [current loss: 0.0076]
+[Epoch: 72]   [loss avg: 0.7196]   [current loss: 0.0014]
+[Epoch: 73]   [loss avg: 0.6395]   [current loss: 0.0012]
+[Epoch: 73]   [loss avg: 0.7099]   [current loss: 0.0003]
+[Epoch: 74]   [loss avg: 0.6313]   [current loss: 0.0022][Epoch: 74]   [loss avg: 0.7010]   [current loss: 0.0085]
+
+[Epoch: 75]   [loss avg: 0.6229]   [current loss: 0.0010]
+[Epoch: 75]   [loss avg: 0.6921]   [current loss: 0.0009]
+[Epoch: 76]   [loss avg: 0.6150]   [current loss: 0.0087]
+[Epoch: 76]   [loss avg: 0.6833]   [current loss: 0.0042]
+[Epoch: 77]   [loss avg: 0.6071]   [current loss: 0.0045][Epoch: 77]   [loss avg: 0.6747]   [current loss: 0.0015]
+
+[Epoch: 78]   [loss avg: 0.5994]   [current loss: 0.0014]
+[Epoch: 78]   [loss avg: 0.6662]   [current loss: 0.0020]
+[Epoch: 79]   [loss avg: 0.5920]   [current loss: 0.0061][Epoch: 79]   [loss avg: 0.6580]   [current loss: 0.0013]
+
+[Epoch: 80]   [loss avg: 0.6499]   [current loss: 0.0014]
+[Epoch: 80]   [loss avg: 0.5849]   [current loss: 0.0112]
+[Epoch: 81]   [loss avg: 0.5780]   [current loss: 0.0020]
+[Epoch: 81]   [loss avg: 0.6421]   [current loss: 0.0028]
+[Epoch: 82]   [loss avg: 0.5710]   [current loss: 0.0027]
+[Epoch: 82]   [loss avg: 0.6346]   [current loss: 0.0072]
+[Epoch: 83]   [loss avg: 0.5647]   [current loss: 0.0122]
+[Epoch: 83]   [loss avg: 0.6272]   [current loss: 0.0169]
+[Epoch: 84]   [loss avg: 0.5582]   [current loss: 0.0052][Epoch: 84]   [loss avg: 0.6198]   [current loss: 0.0004]
+
+[Epoch: 85]   [loss avg: 0.5517]   [current loss: 0.0008]
+[Epoch: 85]   [loss avg: 0.6126]   [current loss: 0.0023]
+[Epoch: 86]   [loss avg: 0.5453]   [current loss: 0.0011]
+[Epoch: 86]   [loss avg: 0.6057]   [current loss: 0.0002]
+[Epoch: 87]   [loss avg: 0.5392]   [current loss: 0.0032]
+[Epoch: 87]   [loss avg: 0.5989]   [current loss: 0.0024]
+[Epoch: 88]   [loss avg: 0.5334]   [current loss: 0.0038]
+[Epoch: 88]   [loss avg: 0.5922]   [current loss: 0.0002]
+[Epoch: 89]   [loss avg: 0.5276]   [current loss: 0.0058]
+[Epoch: 89]   [loss avg: 0.5857]   [current loss: 0.0003]
+[Epoch: 90]   [loss avg: 0.5218]   [current loss: 0.0065]
+[Epoch: 90]   [loss avg: 0.5795]   [current loss: 0.0005]
+[Epoch: 91]   [loss avg: 0.5161]   [current loss: 0.0007]
+[Epoch: 91]   [loss avg: 0.5735]   [current loss: 0.0292]
+[Epoch: 92]   [loss avg: 0.5109]   [current loss: 0.0057]
+[Epoch: 92]   [loss avg: 0.5675]   [current loss: 0.0057]
+[Epoch: 93]   [loss avg: 0.5056]   [current loss: 0.0144]
+[Epoch: 93]   [loss avg: 0.5614]   [current loss: 0.0003]
+[Epoch: 94]   [loss avg: 0.5003]   [current loss: 0.0004]
+[Epoch: 94]   [loss avg: 0.5557]   [current loss: 0.0054]
+[Epoch: 95]   [loss avg: 0.4951]   [current loss: 0.0010]
+[Epoch: 95]   [loss avg: 0.5500]   [current loss: 0.0059]
+[Epoch: 96]   [loss avg: 0.4903]   [current loss: 0.0025]
+[Epoch: 96]   [loss avg: 0.5446]   [current loss: 0.0010]
+[Epoch: 97]   [loss avg: 0.4852]   [current loss: 0.0025]
+[Epoch: 97]   [loss avg: 0.5393]   [current loss: 0.0190]
+[Epoch: 98]   [loss avg: 0.4804]   [current loss: 0.0016]
+[Epoch: 98]   [loss avg: 0.5340]   [current loss: 0.0140]
+[Epoch: 99]   [loss avg: 0.4760]   [current loss: 0.0287]
+[Epoch: 99]   [loss avg: 0.5289]   [current loss: 0.0034]
+[Epoch: 100]   [loss avg: 0.4715]   [current loss: 0.0104]
+[Epoch: 100]   [loss avg: 0.5237]   [current loss: 0.0012]
+Training time: 25.740691423416138
+Finished Training
+Training time: 25.741333723068237
+Finished Training
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
