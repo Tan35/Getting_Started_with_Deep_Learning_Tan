@@ -1,0 +1,15 @@
+data/
+visual
+ckpt
+results
+examples
+*.pyc
+*.png
+*.jpg
+*.jpeg
+*.xlsx
+*.zip
+*.ckpt
+*.csv
+*.pkl
+*.swp
